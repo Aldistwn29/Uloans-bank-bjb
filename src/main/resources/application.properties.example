@@ -1,0 +1,7 @@
+spring.application.name=uloans
+spring.datasource.url=jdbc:postgresql://localhost:5433/uloans
+spring.datasource.username=postgres
+spring.datasource.password=CHANGE_ME
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true

@@ -31,3 +31,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Private sprint docs - do not publish
+docs/
+
+# Spring sensitive config (keep local only)
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+src/main/resources/application-*.yml
+src/main/resources/*.pem
+src/main/resources/*.p12
+src/main/resources/*.jks
+
+# Env & secrets
+.env
+.env.*
+*.key
+*.pem
