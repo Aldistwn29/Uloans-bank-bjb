@@ -35,6 +35,6 @@ public class LoanApplicationMapper {
         if(app.getFinalScore() >= 60){
             return "Disetujui 70%: skor " + app.getFinalScore() + " layak sebagian";
         }
-        return "Disetujui 100%: skor " + app.getFinalScore() + " layak penuh";
+        return "Ditolak: skor " + app.getFinalScore() + " di bawah minimum";
     }
 }
